@@ -16,7 +16,10 @@ export const Acumulador = () => {
   return (
     <div>
       <h2>Acumulador</h2>
-      <p>Valor actual: <small>{acumulador}</small></p>
+      <p>Valor actual: 
+        <br />
+        <p className="btn btn-primary">{acumulador}</p>
+        </p>
 
       <button className="btn btn-primary"
       onClick={()=>aumentar()}>+5</button>
